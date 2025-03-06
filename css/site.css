@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    margin: 0 auto;
+    font-family: "Century Gothic", sans-serif;
+}
+
+header{
+    height: 10px;
+    background-color: #fff;
+}
+
+header img{
+    float: left;
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+header h1{
+    float: left;
+    margin: 50px 0px 0 250px;
+    font-size: 45px;
+    color: black;
+}
+
+nav{
+    clear: both;
+    width: 120px;
+    margin: 0px auto;
+    height: 55px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav .opcao{
+    float: left;
+    width: 300px;;
+    padding: 0px 10px;
+    margin: 0 1%;
+    font-size: 26px;
+    
+}
+
+nav .opcao:hover{
+    background-color: gray;
+}
+
+section{
+    clear: both;
+    min-height: 386px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
