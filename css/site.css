@@ -13,7 +13,7 @@ li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ header{
 
 .nav__links li{
     display: inline-block;
-    padding: 0px 10px;
+    padding: 5px;
 }
 
 .nav__links li a{
@@ -49,19 +49,41 @@ header{
 
 section{
     clear: both;
-    min-height: 482px;
+    min-height: 470px;
     width: 100%;
     margin-top: 0px;
 }
 
-/*footer{
+footer{
     background-color: black;
     color: #fff;
     text-align: center;
     padding: 10px;
 }
 
-nav{
+p{
+    color: #fff;
+}
+
+div #titulos{
+    color: #fff;
+}
+
+h2{
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    width: 250px; /* Isso garante que fique centralizado verticalmente */
+    text-align: center;
+    color: #fff;
+}
+
+.segunda-imagem{
+    height: 576px;
+    width: 1024px;
+}
+
+/*nav{
     margin: 0px auto;
     height: 55px;
 }
