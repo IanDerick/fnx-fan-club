@@ -5,8 +5,8 @@ body{
     margin: 0;
     font-family: "Century Gothic", sans-serif;
     background-color: #24252A;
-    display: flex;           /* Flexbox para organizar a estrutura */
-    flex-direction: column;  /* Alinha os elementos de cima para baixo */
+    display: flex;
+    flex-direction: column;
     height: 100vh; 
 }
 
@@ -88,15 +88,9 @@ div #titulos{
 
 h1{
     display: flex;
-<<<<<<< HEAD
     justify-content: flex-end;
-    width: 250px; /* Isso garante que fique centralizado verticalmente */
+    width: 250px; 
     text-align: center;
-=======
-    justify-content: right;
-    text-align: center;
-    width: 250px;
->>>>>>> 1f4e171f99a464b03aa2440883a2c99fb34c560b
     color: #daa520;
 }
 
