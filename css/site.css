@@ -2,10 +2,12 @@
 
 body{
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
     font-family: "Century Gothic", sans-serif;
     background-color: #24252A;
+    display: flex;           /* Flexbox para organizar a estrutura */
+    flex-direction: column;  /* Alinha os elementos de cima para baixo */
+    height: 100vh; 
 }
 
 
@@ -56,10 +58,12 @@ section{
 }
 
 footer{
+    margin-top: auto;
     background-color: #14151a;
     color: #daa520;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
+    font-size: 1;
 }
 
 p{
