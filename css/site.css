@@ -78,8 +78,7 @@ div #titulos{
 
 h1{
     display: flex;
-    justify-content: right;
-    text-align: center;
+    justify-content: flex-end;
     width: 250px; /* Isso garante que fique centralizado verticalmente */
     text-align: center;
     color: #daa520;
