@@ -72,23 +72,31 @@ div #titulos{
     color: #fff;
 }
 
-#topo{
-    margin: 0 550px;
+#topo h1{
+    text-align: center;
+}
+#topo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 125px;            
 }
 
 h1{
     display: flex;
     justify-content: right;
     text-align: center;
-    width: 250px; /* Isso garante que fique centralizado verticalmente */
-    text-align: center;
+    width: 250px;
     color: #daa520;
 }
 
 .primeira-imagem{
+    width: 60%;
+    margin: auto;
+    display: block;
+    text-align: left;
     height: 288px;
     width: 512px;
-    margin: 0 419px;
 }
 
 .topicos{
@@ -191,17 +199,17 @@ h1{
 }
   
 h2{
-     text-align: center;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     font-size: 50px;
-     color:#daa520;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color:#daa520;
 }
   
 section p{
-     clear: both;
-     text-align: center;
-     margin: 10px 80px;
+    clear: both;
+    text-align: center;
+    margin: 10px 80px;
 }
 
 legend{
