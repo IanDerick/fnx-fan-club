@@ -62,7 +62,7 @@ footer{
     color: #daa520;
     text-align: center;
     padding: 10px 0;
-    font-size: 1;
+    font-size: 16px;
 }
 
 p{
@@ -176,6 +176,11 @@ h1{
     background: #14151a;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sexo-container{
+    display: flex;
+    width: 20px;
 }
   
 .faleConosco input, .faleConosco textarea, .faleConosco select{
