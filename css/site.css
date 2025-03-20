@@ -212,6 +212,7 @@ h1{
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     border-color: #daa520;
+    transition: all 0.3s ease 0s;
 }
 
 .faleConosco button:hover{
