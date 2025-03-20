@@ -24,6 +24,14 @@ function validaFaleConosco(){
         document.frmfaleconosco.txtcomentario.focus();
         return false;
     }
+    var email = document.getElementById("email").value;
+    var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!regex.test(email)) {
+        alert("Email inválido!");
+        document.frmfaleconosco.txtemail.focus();
+        return false;
+    }
     return true;
 }
 
