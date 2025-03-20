@@ -182,14 +182,11 @@ h1{
     display: flex;
     width: 20px;
 }
-<<<<<<< HEAD
 
 .inscrever{
     display: flex;
     width: 20px;
 }
-=======
->>>>>>> 65abec4bbad971770cced78472add5de5a2a2765
   
 .faleConosco input, .faleConosco textarea, .faleConosco select{
     width: 100%;
@@ -212,6 +209,13 @@ h1{
     background-color: #daa520;
     font-weight: bold;
     font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border-color: #daa520;
+}
+
+.faleConosco button:hover{
+    background-color: #ac7c03;
 }
   
 h2{
@@ -234,4 +238,5 @@ legend{
 
 label{
     color: #fff;
+    white-space: nowrap;
 }
