@@ -182,11 +182,14 @@ h1{
     display: flex;
     width: 20px;
 }
+<<<<<<< HEAD
 
 .inscrever{
     display: flex;
     width: 20px;
 }
+=======
+>>>>>>> 65abec4bbad971770cced78472add5de5a2a2765
   
 .faleConosco input, .faleConosco textarea, .faleConosco select{
     width: 100%;
