@@ -27,10 +27,10 @@
             <fieldset class="faleConosco">
                 <legend>Dados pessoais:</legend>
                 <label for="nome">Nome: </label>
-                <input type="text" name="txtnome" id="nome">
+                <input type="text" name="txtnome" id="nome" placeholder="Nome Sobrenome">
                 <label for="sexo">Sexo: </label>
                 <div class="sexo-container">
-                    <input type="radio" name="txtsexo" id="masculino" value="masculino">
+                    <input type="radio" name="txtsexo" id="masculino" value="masculino" onclick="validaSexo()">
                     <label for="masculino">Masculino</label>
                     <input type="radio" name="txtsexo" id="feminino" value="feminino">
                     <label for="feminino">Feminino</label>
@@ -38,7 +38,7 @@
                 <label for="nome">Data de nascimnto: </label>
                 <input type="date" name="txtdtnasc" id="dtnasc">
                 <label id="telefone">Telefone: </label>
-                <input type="text" name="txtfone" id="fone">
+                <input type="text" name="txtfone" id="fone"  placeholder="(DDD)*****-****">
                 <label for="email">E-mail: </label>
                 <input type="email" name="txtemail" id="email">
                 <div class="inscrever">
@@ -57,7 +57,7 @@
                 </select>
                 <label for="comentario">Comentário</label>
                 <textarea name="txtcomentario" id="comentario"></textarea>
-                <button type="reset">Limpar</button><button type="submit" id="submit" disabled>Enviar</button>
+                <button type="reset">Limpar</button><button type="submit" id="submit" disabled >Enviar</button>
             </fieldset>
         </form>
     </section>
