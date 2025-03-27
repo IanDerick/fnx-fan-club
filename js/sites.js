@@ -60,5 +60,6 @@ function habilitarBotao() {
 
 $(document).ready(function(){
     $("header").load("/pages/site/general/cabecalho.html");
+    $("nav").load("/pages/site/general/menu.html");
     $("footer").load("/pages/site/general/rodape.html");
 });
