@@ -57,3 +57,8 @@ function habilitarBotao() {
     const botao = document.getElementById('submit');
     botao.disabled = !checkbox.checked;
 }
+
+$(document).ready(function(){
+    $("header").load("/pages/site/general/cabecalho.html");
+    $("footer").load("/pages/site/general/rodape.html");
+});
